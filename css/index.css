@@ -65,11 +65,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
 body {
 	width: 876px;
 	margin: 0 auto;
-	/* border: 1px solid gray; */
 }
 
 header {
@@ -77,10 +75,6 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding: 5% 0 0;
-}
-
-header nav, header img {
-	display: inline-block;
 }
 
 header nav {
@@ -192,7 +186,7 @@ footer #copyright {
 }
 
 #serviceDetail div {
-	width: 46vw;
+	width: 35vw;
 	background-color: lightgray;
 	padding: 15px;
 	border: 1px solid black;
@@ -262,7 +256,6 @@ footer #copyright {
 		flex-direction: column-reverse;
 		justify-content: center;
 		align-items: center;
-		/* margin-bottom: 5%; */
 	}
 
 	header img {
@@ -284,7 +277,7 @@ footer #copyright {
 	}
 
 	#serviceDetail div {
-		
+		width: 46vw;
 	}
 }
 
@@ -349,6 +342,11 @@ footer #copyright {
 		flex-wrap: wrap;
 		width: 100%;
 	}
+
+	#facts div:last-child {
+		width: 100%;
+	}
+
 	#facts div, #facts p, #facts img {
 		width: 100%;
 		padding: 2% 0;
